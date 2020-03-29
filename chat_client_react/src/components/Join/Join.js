@@ -10,7 +10,7 @@ export default function SignIn() {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
-        <h1 className="heading">Chat - SafraDocs</h1>
+        <h1 className="heading">SafraDocs</h1>
         <div>
           <input placeholder="Nome" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
         </div>
